@@ -1,0 +1,31 @@
+body {
+    margin: 100;
+    padding: 100;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-image: url('background.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box
+{	
+
+	width: 346px;
+	padding: 30px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: #1FA907 4px solid;
+	box-shadow: 0px 6px 45px -11px;
+	text-align: center;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 4px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
